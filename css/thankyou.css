@@ -1,0 +1,38 @@
+h1 {
+  font-size: 35px;
+}
+.main_picture_content_wrapper {
+  justify-content: center;
+  gap: 30px;
+  margin-top: 38svh;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+header {
+  background: transparent;
+  backdrop-filter: none;
+}
+.main_picture {
+  height: 100svh;
+}
+.step_main_picture {
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .main_picture_content_wrapper {
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 30svh;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .main_picture_button {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}
