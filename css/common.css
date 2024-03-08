@@ -120,9 +120,9 @@ table {
 /*COLOR VARIABLES START*/
 :root {
   --main-bg-color: #fff;
-  --usual-decorations: #1e3c83;
+  --usual-decorations: #131551;
   --main-text-color: #000;
-  --unusual-decor: #1e3c83;
+  --unusual-decor: #131551;
   --subcolor: rgba(255, 255, 255, 0.57);
   --section--title-text: #1b181f;
   --section-subtitles-color: rgba(242, 245, 247, 0.63);
@@ -175,7 +175,7 @@ h1 {
 }
 .container {
   max-width: 1620px;
-  
+
   padding-left: 150px;
   padding-right: 150px;
 }
@@ -184,7 +184,7 @@ h2 {
   border-radius: 33px;
   background: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
-  color: #1e3c83;
+  color: #131551;
   text-align: center;
   font-size: 16px;
   font-weight: 400;
